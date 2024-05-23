@@ -1,7 +1,7 @@
 import { hash } from "bcryptjs";
 import prismaClient from "../../prisma";
 
-interface Userrequest {
+interface UserRequest {
   name:string;
   email:string;
   password:string
@@ -9,7 +9,7 @@ interface Userrequest {
 
 
 class CreateUserService {
-  async execute({name, email, password}: Userrequest) {
+  async execute({name, email, password}: UserRequest) {
    
     if(!email) {
       throw new Error("Email incorrect")
