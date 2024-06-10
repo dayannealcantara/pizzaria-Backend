@@ -18,8 +18,8 @@ Este backend é responsável por processar rotas, conexões e APIs para o Sistem
 
 ## Repositórios Relacionados
 
-* Frontend: Link para o repositório do frontend
-* Mobile: Link para o repositório do backend
+* [Link para o repositório do mobile](https://github.com/dayannealcantara/pizzaria-mobile)
+* [Link para o repositório do frontend](https://github.com/dayannealcantara/pizzaria---frontend)
 
 ## Como Executar o Projeto Localmente
 
